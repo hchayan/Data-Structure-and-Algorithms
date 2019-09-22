@@ -11,10 +11,10 @@
 
 ## 자료구조 개념 (Data structure)
 
-- 배열(Array)
+- **[배열(Array)](./Data Structure/array.md)**
 - 연결 리스트(Linked List)
 - **[스택(Stack)](https://charincoding.com/2019/05/23/1-스택/)**
-- 큐(Queue)
+- **[큐(Queue)]([https://charincoding.com/2019/05/23/2-%ed%81%90/](https://charincoding.com/2019/05/23/2-큐/))**
 - 해쉬 테이블(Hash Table)
 - 힙(Heap)
 - 트리(Tree)
@@ -52,10 +52,18 @@
 ------
 [백준 스택 문제 모음](https://www.acmicpc.net/problem/tag/%EC%8A%A4%ED%83%9D)
 
+| 번호 | 사이트 |                       문제                        |                   코드                    | 난이도 |      비고      |
+| :--: | :----: | :-----------------------------------------------: | :---------------------------------------: | :----: | :------------: |
+|  1   |  백준  | [스택 수열](https://www.acmicpc.net/problem/1874) | [python3](./Quizes/backjoon/back_1874.py) |   하   |                |
+|  2   |  백준  |  [폭죽쇼](https://www.acmicpc.net/problem/1773)   | [python3](./Quizes/backjoon/back_1773.py) |  최하  |                |
+|  3   |  백준  |  [키로커](https://www.acmicpc.net/problem/5397)   | [python3](./Quizes/backjoon/back_5397.py) |   중   | 연결리스트개념 |
+|      |        |                                                   |                                           |        |                |
+
+#### 큐(Queue)
+
+------
+[백준 큐 문제 모음](https://www.acmicpc.net/problem/tag/%ED%81%90)
+
 | 번호 | 사이트 |                       문제                        |                   코드                    | 난이도 |
 | :--: | :----: | :-----------------------------------------------: | :---------------------------------------: | :----: |
-|  1   |  백준  | [스택 수열](https://www.acmicpc.net/problem/1874) | [python3](./Quizes/backjoon/back_1874.py) |   중   |
-|  2   |  백준  |  [폭죽쇼](https://www.acmicpc.net/problem/1773)   | [python3](./Quizes/backjoon/back_1773.py) |   하   |
-|  3   |  백준  |                                                   |                                           |        |
-|      |        |                                                   |                                           |        |
-
+|  1   |  백준  | [프린터 큐](https://www.acmicpc.net/problem/1966) | [python3](./Quizes/backjoon/back_1996.py) |   하   |

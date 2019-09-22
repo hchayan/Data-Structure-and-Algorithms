@@ -65,7 +65,7 @@ MERGE-SORT(A, p, r)
     MERGE(A,p,q,r)          // 정복
     
     
-MERGE-SORT(A,p,q,r)
+MERGE(A,p,q,r)
   n1 = q-p+1
   n2 = r-q
   배열 L[1:n1+1], R[1:n2+1] 생성    // A에 두 subarray 붙어서 온거 잘라줌 

@@ -52,12 +52,27 @@
 ------
 [백준 스택 문제 모음](https://www.acmicpc.net/problem/tag/%EC%8A%A4%ED%83%9D)
 
-| 번호 | 사이트 |                       문제                        |                   코드                    | 난이도 |      비고      |
-| :--: | :----: | :-----------------------------------------------: | :---------------------------------------: | :----: | :------------: |
-|  1   |  백준  | [스택 수열](https://www.acmicpc.net/problem/1874) | [python3](./Quizes/backjoon/back_1874.py) |   하   |                |
-|  2   |  백준  |  [폭죽쇼](https://www.acmicpc.net/problem/1773)   | [python3](./Quizes/backjoon/back_1773.py) |  최하  |                |
-|  3   |  백준  |  [키로커](https://www.acmicpc.net/problem/5397)   | [python3](./Quizes/backjoon/back_5397.py) |   중   | 연결리스트개념 |
-|  4   |  백준  |    [탑](https://www.acmicpc.net/problem/2493)     |  [Pypy3](./Quizes/backjoon/back_2493.py)  |   하   |                |
+###### <백준>
+
+| 번호 |                       문제                        |                    코드                    | 난이도 |    비고    |
+| :--: | :-----------------------------------------------: | :----------------------------------------: | :----: | :--------: |
+|  1   | [스택 수열](https://www.acmicpc.net/problem/1874) | [python3](./Quizes/backjoon/back_1874.py)  |   하   |            |
+|  2   |  [폭죽쇼](https://www.acmicpc.net/problem/1773)   | [python3](./Quizes/backjoon/back_1773.py)  |  최하  |            |
+|  3   |  [키로커](https://www.acmicpc.net/problem/5397)   | [python3](./Quizes/backjoon/back_5397.py)  |   중   | 연결리스트 |
+|  4   |    [탑](https://www.acmicpc.net/problem/2493)     |  [Pypy3](./Quizes/backjoon/back_2493.py)   |   하   |            |
+|  5   |   [트럭](https://www.acmicpc.net/problem/13335)   | [python3](./Quizes/backjoon/back_13335.py) |   하   |            |
+
+###### <프로그래머즈>
+
+| 번호 |                             문제                             |                       코드                        | 난이도 | 비고 |
+| :--: | :----------------------------------------------------------: | :-----------------------------------------------: | :----: | :--: |
+|  1   |                              탑                              |                                                   |        |      |
+|  2   | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [python3](./Quizes/programmers/truck_crossing.py) |   하   |      |
+|  3   | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |  [python3](./Quizes/programmers/function_dev.py)  |   하   |      |
+|  4   |                           쇠막대기                           |                                                   |        |      |
+|  5   |                           주식가격                           |                                                   |        |      |
+
+
 
 #### 큐(Queue)
 

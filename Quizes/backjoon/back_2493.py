@@ -17,5 +17,3 @@ for i in range(len(lis)):
         ans.append(0)
 
 print(' '.join(map(str,ans)))
-
-

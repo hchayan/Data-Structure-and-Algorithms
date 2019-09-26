@@ -15,7 +15,7 @@
 - 연결 리스트(Linked List)
 - **[스택(Stack)](https://charincoding.com/2019/05/23/1-스택/)**
 - **[큐(Queue)]([https://charincoding.com/2019/05/23/2-%ed%81%90/](https://charincoding.com/2019/05/23/2-큐/))**
-- 해쉬 테이블(Hash Table)
+- **[해쉬(Hash) - dict자료형](./Data Structure/hast.md)**
 - 힙(Heap)
 - 트리(Tree)
   - 일반 트리
@@ -82,3 +82,11 @@
 | 번호 | 사이트 |                       문제                        |                   코드                    | 난이도 |
 | :--: | :----: | :-----------------------------------------------: | :---------------------------------------: | :----: |
 |  1   |  백준  | [프린터 큐](https://www.acmicpc.net/problem/1966) | [python3](./Quizes/backjoon/back_1996.py) |   하   |
+
+#### 해시(hast) - dict
+
+-------
+| 번호 | 사이트 |                      문제                       |                   코드                    | 난이도 |
+| :--: | :----: | :---------------------------------------------: | :---------------------------------------: | :----: |
+|  1   |  백준  | [수 찾기](https://www.acmicpc.net/problem/1920) | [python3](./Quizes/backjoon/back_1920.py) |   하   |
+

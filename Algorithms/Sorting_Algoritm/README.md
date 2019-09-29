@@ -1,8 +1,32 @@
 # 정렬 알고리즘
 
+### 정렬 내장함수 - sort(), sorted()
 
+```
+정렬할배열변수.sort()
+
+변수 = sorted(정렬할배열변수)
+```
+------
+
+1. **역순 배열**
+
+   ```
+   a.sort(reversed=True)
+   ```
+
+2. **2차원 배열에서 특정 키값 기준으로 배열**
+
+   ```
+   sorted(배열변수, key = lambda x: x[0])    # 특정 키값 : 배열의 0번째 원소들 기준
+   ```
+
+   <br>
 
 ### 정렬 알고리즘 종류
+
+-------
+
 ##### [대표적인 정렬 알고리즘]
 
 - [삽입(Insertion) 정렬 알고리즘](https://github.com/Hanswind/Algorithm_Practice/tree/master/Algoritm_Concept/Sorting_Algoritm/insertion_sort)

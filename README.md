@@ -3,24 +3,24 @@
 
 **(이 공간은 Python 3 기준으로 작성되었습니다)**
 
-## 목차
-
-- [자료구조 개념](#자료구조 개념 (Data structure))
-- [알고리즘 개념](#알고리즘 개념 (Algorithms))
-- [분류별 문제](#분류별 문제)
+<br>
 
 ## 자료구조 (Data structure) 기본
 
-- **[배열(Array)](./Data Structure/array.md)**
+- **[배열(Array)](/Data Structure/array.md)**
 - **[스택(Stack)](./Data Structure/stack.md)**
 - **[큐(Queue)](https://charincoding.com/2-큐/)**
 - **[해쉬(Hash) - dict자료형](./Data Structure/hash.md)**
+
+<br>
 
 ## 알고리즘 (Algorithms) 기본
 
 : 어떤 문제를 풀기위한 절차 및 방법
 
 - **[정렬 알고리즘](./Algorithms/Sorting_Algorithm/README.md)**
+
+<br>
 
 #### 알고리즘 문제
 
@@ -37,6 +37,16 @@
 
 
 
+
+
+
+
+
+
+
+------
+
+<작업중>
 
 - 연결 리스트(Linked List)
 - 힙(Heap)

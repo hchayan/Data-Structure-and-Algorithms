@@ -31,3 +31,20 @@ for x in data:  # data 배열내 데이터들을 하나하나씩 가져옴
 
 - 배열(Array)는 **크기가 변하지 않는** 리스트형 자료구조(중간 값을 지워도 빈칸으로 유지)
 - 리스트는 반대로 **크기가 변하는** 자료구조
+
+
+
+
+
+------
+
+#### 배열(Array) 문제
+
+------
+
+| 번호 | 사이트 |                         문제                          |                    코드                    | 난이도 |
+| :--: | :----: | :---------------------------------------------------: | :----------------------------------------: | :----: |
+|  1   |  백준  |     [음계](https://www.acmicpc.net/problem/2920)      | [python3](../Quizes/backjoon/back_2920.py) |   하   |
+|  2   |  백준  | [나는 요리사다](https://www.acmicpc.net/problem/2953) | [python3](../Quizes/backjoon/back_2953.py) |   하   |
+|  3   |  백준  |   [오르막길](https://www.acmicpc.net/problem/2846)    | [python3](../Quizes/backjoon/back_2846.py) |   하   |
+|      |        |                                                       |                                            |        |

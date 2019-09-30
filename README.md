@@ -34,6 +34,7 @@
 |  2   |  백준  |  [소트인사이드](https://www.acmicpc.net/problem/1427)  | [python3](./Quizes/backjoon/back_1427.py)  |   하   |        |
 |  3   |  백준  |  [나이순정렬](https://www.acmicpc.net/problem/10814)   | [python3](./Quizes/backjoon/back_10814.py) |  중하  | lambda |
 |  4   |  백준  | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) | [python3](./Quizes/backjoon/back_11650.py) |   하   |        |
+|  5   |  백준  |      [보물](https://www.acmicpc.net/problem/1026)      | [python3](./Quizes/backjoon/back_1026.py)  |   하   |        |
 
 
 

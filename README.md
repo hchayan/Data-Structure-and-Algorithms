@@ -7,10 +7,10 @@
 
 ## 자료구조 (Data structure) 기본
 
-- **[배열(Array)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data Structure/array.md)**
-- **[스택(Stack)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data Structure/stack.md)**
+- **[배열(Array)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/array.md)**
+- **[스택(Stack)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data %20Structure/stack.md)**
 - **[큐(Queue)](https://charincoding.com/2-큐/)**
-- **[해쉬(Hash) - dict자료형](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data Structure/hash.md)**
+- **[해쉬(Hash) - dict자료형](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/hash.md)**
 
 <br>
 

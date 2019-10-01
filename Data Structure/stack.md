@@ -39,9 +39,7 @@
 
 | 번호 |                             문제                             |                        코드                        | 난이도 | 비고 |
 | :--: | :----------------------------------------------------------: | :------------------------------------------------: | :----: | :--: |
-|  1   |                              탑                              |                                                    |        |      |
-|  2   | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [python3](../Quizes/programmers/truck_crossing.py) |   하   |      |
-|  3   | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |  [python3](../Quizes/programmers/function_dev.py)  |   하   |      |
-|  4   |                           쇠막대기                           |                                                    |        |      |
-|  5   |                           주식가격                           |                                                    |        |      |
+|  1   | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [python3](../Quizes/programmers/truck_crossing.py) |   하   |      |
+|  2   | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |  [python3](../Quizes/programmers/function_dev.py)  |   하   |      |
+|  3   | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) |  [python3](../Quizes/programmers/stock_price.py)   |   하   |      |
 

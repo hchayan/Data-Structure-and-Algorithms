@@ -28,13 +28,14 @@
 
 1. **정렬 알고리즘**
 
-| 번호 | 사이트 |                          문제                          |                    풀이                    | 난이도 |  비고  |
-| :--: | :----: | :----------------------------------------------------: | :----------------------------------------: | :----: | :----: |
-|  1   |  백준  |  [수 정렬하기](https://www.acmicpc.net/problem/2750)   | [python3](./Quizes/backjoon/back_2750.py)  |   하   |        |
-|  2   |  백준  |  [소트인사이드](https://www.acmicpc.net/problem/1427)  | [python3](./Quizes/backjoon/back_1427.py)  |   하   |        |
-|  3   |  백준  |  [나이순정렬](https://www.acmicpc.net/problem/10814)   | [python3](./Quizes/backjoon/back_10814.py) |  중하  | lambda |
-|  4   |  백준  | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) | [python3](./Quizes/backjoon/back_11650.py) |   하   |        |
-|  5   |  백준  |      [보물](https://www.acmicpc.net/problem/1026)      | [python3](./Quizes/backjoon/back_1026.py)  |   하   |        |
+| 번호 |    사이트    |                             문제                             |                    풀이                    | 난이도 |  비고  |
+| :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------: | :----: | :----: |
+|  1   |     백준     |     [수 정렬하기](https://www.acmicpc.net/problem/2750)      | [python3](./Quizes/backjoon/back_2750.py)  |   하   |        |
+|  2   |     백준     |     [소트인사이드](https://www.acmicpc.net/problem/1427)     | [python3](./Quizes/backjoon/back_1427.py)  |   하   |        |
+|  3   |     백준     |     [나이순정렬](https://www.acmicpc.net/problem/10814)      | [python3](./Quizes/backjoon/back_10814.py) |  중하  | lambda |
+|  4   |     백준     |    [좌표 정렬하기](https://www.acmicpc.net/problem/11650)    | [python3](./Quizes/backjoon/back_11650.py) |   하   |        |
+|  5   |     백준     |         [보물](https://www.acmicpc.net/problem/1026)         | [python3](./Quizes/backjoon/back_1026.py)  |   하   |        |
+|  6   | 프로그래머즈 | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [python3](./Quizes/programmers/h-index.py) |   하   |        |
 
 
 

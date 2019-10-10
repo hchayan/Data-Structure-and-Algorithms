@@ -40,11 +40,12 @@
 
 2. **재귀 호출**
 
-| 번호 | 사이트 |                        문제                         |                   풀이                    | 난이도 |   비고    |
-| :--: | :----: | :-------------------------------------------------: | :---------------------------------------: | :----: | :-------: |
-|  1   |  백준  | [피보나치 수](https://www.acmicpc.net/problem/2747) | [python3](./Quizes/backjoon/back_2747.py) |   하   |           |
-|  2   |  백준  |      [Z](https://www.acmicpc.net/problem/1074)      |  [pyp3](./Quizes/backjoon/back_2747.py)   |   중   | 재귀필수X |
-|      |        |                                                     |                                           |        |           |
+| 번호 | 사이트 |                        문제                         |                   풀이                    | 난이도 |      비고       |
+| :--: | :----: | :-------------------------------------------------: | :---------------------------------------: | :----: | :-------------: |
+|  1   |  백준  | [피보나치 수](https://www.acmicpc.net/problem/2747) | [python3](./Quizes/backjoon/back_2747.py) |   하   |                 |
+|  2   |  백준  |      [Z](https://www.acmicpc.net/problem/1074)      |  [pyp3](./Quizes/backjoon/back_2747.py)   |   중   |    재귀필수X    |
+|  3   |  백준  |  [0 만들기](https://www.acmicpc.net/problem/7490)   | [python3](./Quizes/backjoon/back_7490.py) |   중   |                 |
+|  4   |  백준  |    [알약](https://www.acmicpc.net/problem/4811)     | [python3](./Quizes/backjoon/back_4811.py) |   중   | 기억용 배열(dp) |
 
 
 

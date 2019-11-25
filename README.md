@@ -7,12 +7,17 @@
 
 ## 자료구조 (Data structure) 기본
 
-- **[배열(Array)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/array.md)**
-- **[스택(Stack)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data %20Structure/stack.md)**
-- **[큐(Queue)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data %20Structure/queue.md)**
-- **[스택(Stack)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/stack.md)**
-- **[큐(Queue)](https://charincoding.com/2-큐/)**
-- **[해쉬(Hash) - dict자료형](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/hash.md)**
+1. **[배열(Array)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/array.md)**
+
+2. **[스택(Stack)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data %20Structure/stack.md)**
+
+3. **[큐(Queue)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data %20Structure/queue.md)**
+
+4. **[해쉬(Hash) = 사전(Dict)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/hash.md)**
+
+5. **[연결 리스트(Linked-list)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/linked_list.md)**
+
+6. **[해시 테이블(Hash table)](https://github.com/Hanswind/Data-Structure-and-Algorithms/blob/master/Data%20Structure/Hash_table.md)**
 
 <br>
 

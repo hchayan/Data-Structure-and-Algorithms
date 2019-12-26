@@ -131,9 +131,9 @@ hash(data)    # data에 따라 고정된 랜덤 해시값이 나온다(잘 사�
                if hash_table[has_adr][index][0] == index_key:  # key값같은거있을때
                    hash_table[hash_adr][index][1] == value
                   	return
-           hash_table[hash_adr].append([index.value])
+           hash_table[hash_adr].append([index, value])
        else:   # 슬롯에 값 처음 들어오면 해당 슬롯에 리스트 생성(연결리스트 대신)
-           hash_table[hash_adr] = list([index.value])
+           hash_table[hash_adr] = list([index, value])
    
        
    def read_data(data):

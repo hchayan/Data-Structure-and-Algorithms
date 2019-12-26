@@ -89,17 +89,70 @@ get_data('Andy')   # '01055553333' 출력
 
 <br>
 
-#### [파이썬 hash 내장 함수]
+#### [+) 파이썬 hash 내장 함수]
 
 ------
 
 ```
-hash(data)    # data에 따라 고정된 랜덤 해시값이 나온다(오늘날에 잘 사용되지 않는다.)
+hash(data)    # data에 따라 고정된 랜덤 해시값이 나온다(잘 사용되지 않는다.)
 ```
 
-: 단 컴퓨터 onoff 마다 값이 달라질수도 있기에 잘 사용되지는 않는다.
+: 단 컴퓨터 on/off 마다 값이 달라질수도 있기에 잘 사용되지는 않는다.
 
 <br>
+
+#### [충돌 해결 알고리즘]
+
+------
+
+: 해시 테이블에 해시 함수로 인해 mapping될때 충돌하는 경우 해결하는 알고리즘.
+
+1. **Chaining 기법**
+
+   : 충돌 발생시, 연결 리스트 자료구조 사용해, 데이터 추가로 뒤에 연결시켜 저장하는 기법
+
+   ```python
+   # 문제 - 해시함수 : key%8, 해시 키 생성 : hash(data)일때, chaining 기법 구현
+   
+   hash_table = list([0 for i in range(8)])  #해시 테이블 크기 : 8
+   
+   def get_key(data):               # data에 대한 key(random)값 얻는 함수
+       return hash(data)            # 해시 내장 함수
+   
+   def hash_function(key):          # data의 key값에 해당되는 해시 테이블 위치값 반환 해시 함수
+       return key % 8
+   
+   def save_data(data, value):      # 해당 data의 해시 위치에 value를 저장()
+       index = get_key(data)
+       hash_adr = hash_function(get_key(data))
+       
+       if hash_table[hash_adr] != 0:
+           for index in range(len(hash_table[hash_adr])):
+               if hash_table[has_adr][index][0] == index_key:  # key값같은거있을때
+                   hash_table[hash_adr][index][1] == value
+                  	return
+           hash_table[hash_adr].append([index.value])
+       else:   # 슬롯에 값 처음 들어오면 해당 슬롯에 리스트 생성(연결리스트 대신)
+           hash_table[hash_adr] = list([index.value])
+   
+       
+   def read_data(data):
+       index = get_key(data)
+       hash_adr = hash_function(index)
+       if hash_table[hash_adr] != 0  # 해당 슬롯에 data 있으면
+         for index in range(len(hash_table[hash_adr])):
+               if hash_table[hash_adr][index][0] == index:
+                   return hash_table[hash_adr][index][1]
+         return None
+       else:
+           return None
+   ```
+
+   
+
+2. **Linear Probing 기법**
+
+   : 충돌 발생시, 다음 address 부터 처음으로 나오는 빈공간에 저장하는 기법
 
 #### [해시 테이블 문제]
 

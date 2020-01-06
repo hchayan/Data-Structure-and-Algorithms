@@ -36,4 +36,85 @@
 #### [이진 탐색 트리의 장점과 주요 용도]
 
 - 데이터 검색(탐색)에 주로 사용
-- 탐색 속도 개선 가능 (logn 으로 일정)
+- 탐색 속도 개선 가능 (logn 으로 일정) 
+
+<br>
+
+----------------
+
+#### [파이썬으로 트리 구현하기]
+
+ 1. 노드 클래스 만들기
+
+    ```python
+    class Node:
+      def __init__(self, value):
+      	self.value = value
+      	self.left = None
+      	self.right = None
+    ```
+
+	2. 이진 탐색 트리에 데이터 삽입
+
+    ```python
+    class NoneMgmt:
+      def __init__(self, head):
+      	self.head = head
+      	
+      def insert(self, value):  // 탐색후 올바른 위치에 value 삽입
+      	self.current_node = self.head
+      	while True:
+      		if value < self.current_node:
+                if self.left != None:
+                    self.current_node = self.current_node.left
+                else:
+                    self.current_node.left = Node(value)    // 새로운 노드 생성
+                    break
+            else:
+                if self.current_node.right != None:
+                    self.current_node = self.current_node.right
+                else:
+                    self.current_node.right = Node(value)
+                    break
+    ```
+
+	3. 데이터 검색
+
+    ```python
+    def search(self, value):
+      self.current_node = self.head
+      while self.current_node:
+        if self.current_node == value;
+          return True:
+        elif value < self.current_node.value;
+          self.current_node = self.current_node.left
+        else:
+          self.current_node = self.current_node.right
+      return False:
+    ```
+
+	4. 데이터 삭제
+
+    1) 자식 노드가 0개인 노드를 삭제하는 경우 (잎노드 삭제)
+
+    ```
+    
+    ```
+
+    2) 자식 노드가 1개인 노드를 삭제하는 경우
+
+    ```
+    // 해당 노드의 부모노드의 자식 노드를 현 노드의 자식노드로 지정한다.
+    ```
+
+    3) 자식 노드가 2개인 노드를 삭제하는 경우
+
+    ```
+    // 삭제할 노드의 오른 자식중 가장 작은 값(가장 왼쪽)을 가져옴
+    // 삭제할 노드의 왼쪽 자식중 가장 큰 값(가장 오른쪽)을 가져옴
+    // 이 두 방법중 한 방법을 사용한다.
+    ```
+
+    
+
+    

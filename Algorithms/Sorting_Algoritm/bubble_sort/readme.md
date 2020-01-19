@@ -10,6 +10,8 @@
   
 - **평균 시간 복잡도 : O(n^2)**
 
+  
+
 
 ### 사용처
 ---
@@ -18,13 +20,48 @@
 
 
 ### 간단 이론
+
 ---
+**[버블 정렬 기본 구조]**
+
+```
+for index in range( 데이터길이 - 1 ):
+  for index2 in range( 데이터길이 - index - 1 ):
+    if 앞데이터 > 뒤데이터 :
+      swap(앞데이터, 뒤데이터)
+```
+
+**[버블 정렬 예시]**
+
 ```text
-# 버블 정렬 예시
+
 
 ex) list = [1,2,3,4,5] 일때,
 
 12, 23, 34, 45, 12, 23, 34, 12, 23, 12 순으로 비교한다.
+```
+
+<br>
+
+----
+
+### 버블정렬 구조 코드 (파이썬)
+
+```python
+def bubbleSort(x):
+  for i in range(len(x) - 1):
+    swap = False
+    for j in range(len(x) - i - 1): # j의 탐색범위를 0~n, 0~n-1.. 로 줄여나간다.
+      if x[j] > x[j+1]:         # 인접한 두수에서 작은수가 큰수보다 뒤에 있을때
+        x[j],x[j+1] = x[j+1],x[j]
+        swap = True
+
+    if swap == False:
+      break
+  return x
+
+x= [5,2,8,6,1]
+print(bubbleSort(x))
 ```
 
 

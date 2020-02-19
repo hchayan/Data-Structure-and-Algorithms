@@ -1,31 +1,37 @@
-import sys
 
-n = int(sys.stdin.readline().rstrip())
+nums = []
+for i in range(int(input())):
+    nums.append(int(input()))
 
+# 산술 평균
+print(round(sum(nums)/len(nums)))
+
+# 중앙값
+nums.sort()
+if len(nums)%2 == 1:
+    print(nums[len(nums)//2])
+else:
+    print((nums[len(nums)//2] + nums[len(nums)//2+1]) / 2)
+
+# 최빈값
 dic = {}
-for nn in range(n):
-    x = int(sys.stdin.readline().rstrip())
-    if x not in dic:
-        dic[x] = 1
+for n in nums:
+    if n not in dic:
+        dic[n] = 1
     else:
-        dic[x] += 1
+        dic[n] += 1
 
-lis = sorted(list(dic.keys()))
-
-print(int(round((sum(lis)/len(lis)),0)))
-print(lis[len(lis)//2])
-
-
-tmp_max = max(dic.values())
+sorted(dic.values())
+maxv = max(dic.values())
 tmp = []
 for k, v in dic.items():
-    if v == tmp_max:
+    if v == maxv:
         tmp.append(k)
 
-if len(tmp)==1:
-    print(tmp.pop())
+if len(tmp) < 2:
+    print(tmp[0])
 else:
-    print(sorted(tmp))
-    print(sorted(tmp)[1])
+    print(tmp[1])
 
-print(lis[len(lis)-1]-lis[0])
+# 범위
+print(nums[len(nums)-1] - nums[0])

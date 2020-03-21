@@ -1,31 +1,20 @@
 x, y, b = map(int, input().split())
-ground = []
+grounds = []
 for i in range(x):
-    ground.append(list(map(int, input().split())))
+    grounds += list(map(int, input().split()))
 
-start, end = 0, 257
-tmp2 = 256 * x * y * 2
+time, height = 256*x*y*2, -1
+for i in range(257):
+    tmp_time = 0
+    tmp_blocks = 0
+    for ground in grounds:
+        if ground > i:
+            tmp_time += 2*(ground-i)
+        elif ground < i:
+            tmp_time += (i-ground)
+        tmp_blocks += (i - ground)
+    if tmp_time <= time and tmp_blocks <= b:
+        time = tmp_time
+        height = i
 
-while start <= end:
-    if end == 0 or start == 256:
-        break
-    tmp = 0
-    ub = 0
-    mid = (start + end) // 2
-    for line in ground:
-        for block in line:
-            if block > mid:
-                tmp += (2 * (block-mid))
-                ub -= 1
-            elif block < mid:
-                tmp += (mid-block)
-                ub += 1
-
-    print(start, end, tmp, tmp2, ub)
-    if ub > b or tmp < tmp2:
-        tmp2 = tmp
-        end = mid - 1
-    else:
-        start = mid + 1
-
-print(end)
+print(time, height)

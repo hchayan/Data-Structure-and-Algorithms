@@ -1,20 +1,22 @@
 
-pokemons = {}
-
-def find(data):
-
+pokemons = []
+pokemons_num = {}
 
 N, M = map(int,input().split())
-for i in range(N):
-    pokemons[i+1] = input()
 
-pokemons.sort()
-for i in range(M):
+for i in range(N):
+    pk = input()
+    pokemons.append(pk)
+    pokemons_num[pk] = i + 1
+
+for _ in range(M):
     item = input()
-    if ord(item[0]) >= 48 and ord(item[0]) < 58:   # 숫자면
-        print(pokemons[int(item)])
+    if item.isdigit():
+        print(pokemons[int(item)-1])
     else:
-        print(find(item))
+        print(pokemons_num[item])
+
+
 
 
 

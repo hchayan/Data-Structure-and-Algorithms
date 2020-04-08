@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c35313e-1a61-4f72-9c22-56c49318edfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backjoon/back_1010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/back_1699.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/back_2876.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/back_1260.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms/동적 프로그래밍.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms/동적 프로그래밍.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +31,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backjoon/back_2876.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="242">
               <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backjoon/back_1010.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backjoon/back_1260.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="58" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bfs_and_dfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -65,14 +82,15 @@
         <option value="$PROJECT_DIR$/backjoon/back_1699.py" />
         <option value="$PROJECT_DIR$/backjoon/back_2876.py" />
         <option value="$PROJECT_DIR$/backjoon/back_1010.py" />
+        <option value="$PROJECT_DIR$/backjoon/back_1260.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="609" />
-    <option name="y" value="113" />
+    <option name="x" value="744" />
+    <option name="y" value="572" />
     <option name="width" value="1298" />
-    <option name="height" value="750" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectId" id="1XYgZbzCe1RrzNspT6dGSB7UdI2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -127,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.back_1010">
+  <component name="RunManager" selected="Python.back_1260">
     <configuration name="back_1010" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quizes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,6 +160,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/back_1010.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="back_1260" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quizes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/back_1260.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,28 +234,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simple_hash_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Quizes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Etc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Etc/simple_hash_table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="swea_1208" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quizes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,6 +258,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.back_1260" />
         <item itemvalue="Python.back_1010" />
         <item itemvalue="Python.back_2876" />
         <item itemvalue="Python.back_1699" />
@@ -302,23 +321,24 @@
       <workItem from="1581401019254" duration="2000" />
       <workItem from="1581404468511" duration="95000" />
       <workItem from="1585989114821" duration="1185000" />
-      <workItem from="1586157519514" duration="3496000" />
+      <workItem from="1586157519514" duration="3547000" />
+      <workItem from="1586329644742" duration="4709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4681000" />
+    <option name="totallyTimeSpent" value="9441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="609" y="113" width="1298" height="750" extended-state="0" />
+    <frame x="744" y="572" width="1298" height="523" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2786753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3958869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,6 +368,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Quizes$back_2876.coverage" NAME="back_2876 Coverage Results" MODIFIED="1586160273647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backjoon" />
     <SUITE FILE_PATH="coverage/Quizes$back_1699.coverage" NAME="back_1699 Coverage Results" MODIFIED="1586159128241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backjoon" />
+    <SUITE FILE_PATH="coverage/Quizes$back_1260.coverage" NAME="back_1260 Coverage Results" MODIFIED="1586333969466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backjoon" />
     <SUITE FILE_PATH="coverage/Quizes$back_1010.coverage" NAME="back_1010 Coverage Results" MODIFIED="1586161417460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backjoon" />
   </component>
   <component name="editorHistoryManager">
@@ -363,15 +384,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backjoon/back_2876.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
+        <state relative-caret-position="242">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backjoon/back_1010.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bfs_and_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backjoon/back_1260.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="58" selection-end-column="20" />
         </state>
       </provider>
     </entry>

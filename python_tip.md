@@ -198,4 +198,12 @@
      if 값.isdigit():
      ```
 
-     
+15.  날짜 모듈
+
+     ```
+     import time, datetime;
+     ```
+
+     : https://dojang.io/mod/page/view.php?id=2463
+
+     : https://www.daleseo.com/python-time/

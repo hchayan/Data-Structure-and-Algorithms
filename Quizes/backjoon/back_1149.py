@@ -1,33 +1,37 @@
-# 우선 각 경우에서 최소값을 뽑아 전에 위치랑 비교해 다르면 적용. 같으면 2번째로 작은 값을 적용하는 구조로 계산
-
 import sys
+costs = [[0,0,0]]
 
-def find(r,g,b):
-    min1 = min(r,g,b)
-    if r == min1:
-        return min1, min(g,b)
-    elif g == min1:
-        return min1, min(r,b)
+for i in range(int(sys.stdin.readline())):
+    costs.append(list(map(int, sys.stdin.readline().split())))
+    costs[i + 1][0] = min(costs[i][1], costs[i][2]) + costs[i+1][0]
+    costs[i + 1][1] = min(costs[i][0], costs[i][2]) + costs[i+1][1]
+    costs[i + 1][2] = min(costs[i][0], costs[i][1]) + costs[i+1][2]
+
+print(min(costs[len(costs)-1]))
+
+
+
+# 재귀 방식..
+"""
+def lowest(costs, leng,  pos):
+    if leng >= len(costs) - 1:
+        if pos == 0:
+            return min(costs[leng][1], costs[leng][2])
+        elif pos == 1:
+            return min(costs[leng][0], costs[leng][2])
+        else:
+            return min(costs[leng][0], costs[leng][1])
+
+    if pos == 0:
+        return costs[leng][0] + min(lowest(costs, leng+1, 1), lowest(costs, leng+1, 2))
+    elif pos == 1:
+        return costs[leng][1] + min(lowest(costs, leng+1, 0), lowest(costs, leng+1, 2))
     else:
-        return min1, min(r, g)
+        return costs[leng][2] + min(lowest(costs, leng+1, 0), lowest(costs, leng+1, 1))
 
 
 
-ans = 0
-pos = ""
-for n in range(int(sys.stdin.readline().rstrip())):
-    lis = list(map(int, sys.stdin.readline().rstrip().split()))
-    min1, min2 = find(lis[0], lis[1], lis[2])
-    print(min1, min2)
-    if pos != min1:
-        if min1 == 'r': ans+=lis[0]
-        elif min1 == 'g': ans+=lis[1]
-        else: ans+=lis[2]
-        pos = min1
-    else:
-        if min2 == 'r': ans+=lis[0]
-        elif min2 == 'g': ans+=lis[1]
-        else: ans+=lis[2]
-        pos = min2
-print(ans)
 
+
+print(min(lowest(costs, 0, 0), lowest(costs, 0, 1), lowest(costs, 0, 2)))
+"""

@@ -1,2 +1,10 @@
-# 이것도 규칙 파악.
-# 대충봤을때 1*2, 2*2 별로 n값에 따른 개수 구해야될듯
+
+quads = []
+for i in range(int(input())):
+    if i == 0:
+        quads.append(1)
+    elif i == 1:
+        quads.append(3)
+    else:
+        quads.append(quads[i-1] + quads[i-2] * 2)
+print(quads.pop()%10007)

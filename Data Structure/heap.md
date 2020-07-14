@@ -14,13 +14,17 @@ import heapq
 # 힙에 원소 추가
 heapq.heappush(원소를 추가할 대상 리스트, 추가할 원소)
 
-# 힙에 원소 삭제
-heapq.heappop(리스트)
+# 힙에 원소 삭제 - 최소힙이므로 최소값부터 삭제
+heapq.heappop(리스트) 
+
+# 힙에서 최소값부터 출력
+first = heapq.heappop(리스트)
+...
 
 # 최솟값 삭제하지 않고 얻기
 print(리스트[0])
 
-# 기존 리스트를 힙으로 변환
+# 기존 리스트를 힙으로 변환 - 최소힙
 heap = [4, 1, 7, 3, 8, 5]
 heapq.heapify(heap)
 print(heap)

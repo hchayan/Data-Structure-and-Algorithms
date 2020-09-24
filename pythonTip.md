@@ -208,6 +208,21 @@
 
      : https://www.daleseo.com/python-time/
      
+     <br>
      
-     
+16.  **enumerate 함수**
+
+     : 열거의 개념
+
+     ```python
+     # 배열의 값과 인덱스를 동시에 열거하기
+     alpha = ['a', 'b', 'c']
+     for i, n in enumerate(alpha):
+     	print(i, n)
+     	
+     0, 'a'
+     1, 'b'
+     2, 'c'
+     ```
+
      
